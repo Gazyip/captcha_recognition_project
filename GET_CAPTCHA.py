@@ -17,6 +17,4 @@ def getcap():
                 x+=1
                 with open("cap.txt","w") as f2:
                         f2.write("%s" %x)
-                        
-
 getcap()
